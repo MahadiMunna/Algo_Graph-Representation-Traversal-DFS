@@ -1,0 +1,38 @@
+Graph is a non linear data structure. There will be some nodes and edges.
+
+So graph is the collection of nodes and edges.
+
+Graph roadmap:
+1. Terminology
+2. Representation
+3. Traversal
+4. Graph Algorithms
+
+Terminologies:
+    node - node is like subject or station
+    edge - connection path bewtween nodes 
+
+    depends on direction graph are two types
+    1. Directed graph
+    2. undirected graph
+    depends on edge(weight)
+    1. Unweighted
+    2. weighted
+
+    Tree - connected graph, no cycle 
+    tree detectation formula-> #edges = #vertex -1
+
+Representation:
+    there will be given number of nodes, edges and edge connection with nodes with weight or without.
+
+    1. Adjacency Matrix - Matrix representation(1/weight if the there is edge between nodes) - used is dense matrix
+    2. Adjacency List - To avoid large Matrix time complexity Adjacency list discovered.(space efficient) - use in sparse matrix
+    3. List of edges
+ 
+Traversal:
+DFS - Travers nodes in depth order 
+BFS - Travers nodes in level order 
+
+Tree Terminologies:
+    Child, parent, siblings, root node, leaf node, ancestor(parents to root),
+    common ancestor, lowest common ancestor, depth(root to leaf), height(leaf to root)
